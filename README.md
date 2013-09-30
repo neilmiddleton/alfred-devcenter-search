@@ -9,3 +9,7 @@ A bunch of scripts for searching the Heroku Devcenter's autocomplete API.
 * **dcc** Search, then copy the result to the clipboard
 * **dco** Search, then open the result in the default browser
 * **dcm** Search, then copy the result to the clipboard as a markdown link
+
+### Demo
+
+[![](http://cl.ly/image/263c2c012P1O/content)](http://www.youtube.com/watch?v=kBmx5lkLuAk)
