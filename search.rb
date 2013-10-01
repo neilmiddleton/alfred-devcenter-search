@@ -8,6 +8,7 @@ require 'bundle/bundler/setup'
 require 'alfred'
 require 'excon'
 require 'json'
+require 'uri'
 
 SEARCH_ENDPOINT = 'https://devcenter-staging.heroku.com/api/v1/articles/autocomplete.json'
 
@@ -34,7 +35,7 @@ end
 def search_devcenter(alfred, query, as_markdown)
   feedback = alfred.feedback
 
-  query = Excon.get(SEARCH_ENDPOINT + "?query=#{query}")
+  query = Excon.get(URI.encode(SEARCH_ENDPOINT + "?query=#{query}"))
   results = JSON.parse(query.body)
 
   results.each do |api_result|
