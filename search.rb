@@ -10,7 +10,7 @@ require 'excon'
 require 'json'
 require 'uri'
 
-SEARCH_ENDPOINT = 'https://devcenter-staging.heroku.com/api/v1/articles/autocomplete.json'
+SEARCH_ENDPOINT = 'https://devcenter.heroku.com/api/v1/articles/autocomplete.json'
 
 class DevCenterResult
 

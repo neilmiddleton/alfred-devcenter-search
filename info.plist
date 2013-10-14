@@ -102,7 +102,7 @@
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>keyword</key>
-				<string>dco</string>
+				<string>dc</string>
 				<key>runningsubtext</key>
 				<string>Searching DevCenter for matches…</string>
 				<key>script</key>
