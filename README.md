@@ -16,4 +16,4 @@ Open [the
 workflow](https://github.com/neilmiddleton/alfred-devcenter-search/raw/master/Heroku%20DevCenter%20Search.alfredworkflow) in Alfred. Done.
 ### Demo
 
-[![](http://cl.ly/image/263c2c012P1O/content)](http://www.youtube.com/watch?v=kBmx5lkLuAk)
+[![](http://cl.ly/image/263c2c012P1O/content)](http://www.youtube.com/watch?v=d1gjgGTwwQA)
