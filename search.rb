@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-# encoding: utf-8
+Encoding::default_external = Encoding::UTF_8 if defined? Encoding
 
 ($LOAD_PATH << File.expand_path("..", __FILE__)).uniq!
 
